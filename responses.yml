@@ -1,0 +1,18 @@
+responses:
+    utter_greet:
+        - text: |
+           Hello! Can you guess the animal I am thinking of?
+        - text: |
+           Hi! Do you want to play animal guessing game? What animal I am thiking of?
+    utter_colour:
+       - text: |
+           The animal is brown.
+    utter_legs:
+        - text: |
+           The animal has four legs.
+    utter_behaviour:
+        - text: |
+            The animal eats leaves from a tree.
+    utter_giraffe:
+        - text: |
+            Yes. The animal is giraffe.

@@ -1,0 +1,35 @@
+version: '3.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- colour
+- greet
+- legs
+- body
+- behaviour
+- giraffe
+responses:
+  utter_greet:
+  - text: |
+      Hello! Can you guess the animal I am thinking of?
+  - text: |
+      Hi! Do you want to play animal guessing game? What animal I am thiking of?
+  utter_colour:
+  - text: |
+      The animal is brown.
+  utter_legs:
+  - text: The animal has four legs.
+  utter_body:
+  - text: The animal has a long neck.
+  utter_behaviour:
+  - text: The animal eats leaves from trees.
+  utter_giraffe:
+  - text: Yes. The animal is giraffe.
+actions:
+- utter_colour
+- utter_greet
+- utter_legs
+- utter_body
+- utter_behaviour
+- utter_giraffe

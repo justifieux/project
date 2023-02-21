@@ -1,0 +1,13 @@
+stories:
+ - story: simple animal guessing game
+   steps:
+   - intent: greet
+   - action: utter_greet
+   - intent: colour
+   - action: utter_colour
+   - intent: legs
+   - action: utter_legs
+   - intent: behaviour
+   - action: utter_behaviour
+   - intent: giraffe
+   - action: utter_giraffe
