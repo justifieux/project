@@ -23,11 +23,11 @@ nlu:
   examples: |
     - What unique behaviors does this animal exhibit?
     - What unusual traits does this animal possess?
-    - What is special about this animal
+    - What is special about this animal?
 
 - intent: giraffe
   examples: |
     - Is the animal giraffe?
-    - Is it a lion?
+    - Is it a giraffe?
     - Is the animal you're thinking of a giraffe?
     - It is a giraffe!
